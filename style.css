@@ -1,0 +1,43 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: white;
+  background: radial-gradient(#2c5364, #0f2027);
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 300px 0;
+}
+
+.title {
+  color: goldenrod;
+  font-size: 4rem;
+}
+
+#message-el {
+  font-size: 1.3rem;
+}
+
+button {
+  background: goldenrod;
+  color: #2c5364;
+  width: 150px;
+  border: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(250, 190, 39);
+  color: #0f2027;
+  transition: ease-in-out 0.5s;
+}
